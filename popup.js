@@ -74,7 +74,7 @@ $(function () {
                 // add fly image.
                 $( "<img>" ).attr( "src", resp.subjects[0].images.medium ).appendTo( "#images" );
                 $('#doubanRating').text(rating);
-
+                chrome.storage.sync.set({ 'doubanRating': rating });
                 // must put inside this http get, otherwise moviename is not change
                 getScoreFromIMDB(movieName);
             }

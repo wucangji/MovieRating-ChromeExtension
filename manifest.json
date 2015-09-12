@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 
-	"name": "Protein Tracker",
+	"name": "Yu's movie Rating",
 	"description": "Tracks a user's protein totals throughout the day.",
 	"version": "1.0",
 
